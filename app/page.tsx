@@ -16,7 +16,7 @@ const principles = [
 
 export default function Home() {
   return <main>
-    <header className="site-header"><nav className="nav shell"><a className="wordmark" href="#" aria-label="Auranza home">auranza<span>®</span></a><div className="nav-center"><a href="/services">Services</a><a href="/about">About</a><a href="/contact">Contact</a></div><a className="nav-contact" href="#contact">Start a project <MoveUpRight size={15}/></a><a className="mobile-contact" href="#contact">Let’s talk ↗</a></nav></header>
+    <header className="site-header"><nav className="nav shell"><a className="wordmark" href="#" aria-label="Auranza home">auranza<span>®</span></a><div className="nav-center"><a href="/work">Work</a><a href="/services">Services</a><a href="/about">About</a><a href="/contact">Contact</a></div><a className="nav-contact" href="#contact">Start a project <MoveUpRight size={15}/></a><a className="mobile-contact" href="#contact">Let’s talk ↗</a></nav></header>
 
     <section className="hero shell">
       <div className="hero-meta"><span><i/> INDEPENDENT DIGITAL STUDIO</span><span>STRATEGY / CREATIVE / GROWTH</span></div>
@@ -39,6 +39,6 @@ export default function Home() {
 
     <section className="contact" id="contact"><div className="shell contact-inner"><div className="side-label">[ HAVE SOMETHING IN MIND? ]</div><p className="contact-kicker">THE NEXT MOVE IS YOURS.</p><h2>Let’s make<br/><em>it matter.</em></h2><div className="contact-bottom"><p>Have a challenge, an idea, or just a feeling there’s a better way? We’d love to hear about it.</p><a href="mailto:auranza.digital@gmail.com?subject=Starting%20a%20conversation%20with%20Auranza" className="contact-button">Start a conversation <ArrowUpRight size={19}/></a></div><span className="contact-glyph">a.</span></div></section>
 
-    <footer className="footer"><div className="shell footer-top"><a className="wordmark" href="#">auranza<span>®</span></a><p>Independent by nature.<br/>Intentional by design.</p><div className="footer-nav"><a href="/services">Services</a><a href="/about">About</a><a href="/contact">Contact</a><a href="mailto:auranza.digital@gmail.com">Email</a></div><a className="back-top" href="#">BACK TO TOP ↑</a></div><div className="shell footer-bottom"><span>© {new Date().getFullYear()} AURANZA STUDIO</span><span>MADE WITH INTENTION.</span><span><a href="/privacy-policy">PRIVACY</a> · <a href="/terms">TERMS</a></span></div></footer>
+    <footer className="footer"><div className="shell footer-top"><a className="wordmark" href="#">auranza<span>®</span></a><p>Independent by nature.<br/>Intentional by design.</p><div className="footer-nav"><a href="/work">Work</a><a href="/services">Services</a><a href="/about">About</a><a href="/contact">Contact</a><a href="mailto:auranza.digital@gmail.com">Email</a></div><a className="back-top" href="#">BACK TO TOP ↑</a></div><div className="shell footer-bottom"><span>© {new Date().getFullYear()} AURANZA STUDIO</span><span>MADE WITH INTENTION.</span><span><a href="/privacy-policy">PRIVACY</a> · <a href="/terms">TERMS</a></span></div></footer>
   </main>;
 }
