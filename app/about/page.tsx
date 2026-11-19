@@ -1,0 +1,15 @@
+import Link from "next/link";
+import { ArrowUpRight, Asterisk } from "lucide-react";
+
+export const metadata = { title: "About — Auranza®", description: "Meet Auranza: an independent digital growth studio built around curiosity, clarity and considered work." };
+
+export default function AboutPage() {
+  return <main className="inner-page">
+    <header className="site-header"><nav className="nav shell"><Link className="wordmark" href="/">auranza<span>®</span></Link><div className="nav-center"><Link href="/services">What we do</Link><Link href="/about">About</Link><Link href="/contact">Contact</Link></div><Link className="nav-contact" href="/contact">Start a project <ArrowUpRight size={15}/></Link><Link className="mobile-contact" href="/contact">Let’s talk ↗</Link></nav></header>
+    <section className="inner-hero shell"><p className="eyebrow">[ A LITTLE ABOUT US ]</p><h1>Independent<br/>by nature.<br/><em>Intentional</em><br/><em>by design.</em></h1><div className="inner-hero-aside"><span className="asterisk">✳</span><p>Auranza is an independent digital growth studio bringing strategy, creative thinking and digital performance together.</p></div></section>
+    <section className="inner-band"><div className="shell inner-band-grid"><span className="side-label">[ OUR BELIEF ]</span><h2>Good work starts with <em>good questions.</em></h2><p>We believe the best outcomes come from understanding the real challenge before jumping to the obvious solution. That means listening closely, thinking clearly and making every decision earn its place.</p></div></section>
+    <section className="shell inner-section"><div className="side-label">[ HOW WE WORK ]</div><div className="inner-cards"><article><span>01 / CURIOSITY</span><h3>Look closer.</h3><p>We start by understanding your world, your audience and what progress actually means to your business.</p></article><article><span>02 / CLARITY</span><h3>Find the signal.</h3><p>We turn complexity into a clear direction, with a strategy that connects the dots instead of adding noise.</p></article><article><span>03 / MOMENTUM</span><h3>Make it happen.</h3><p>We bring the right creative and digital disciplines together, learn from the work and keep moving forward.</p></article></div></section>
+    <section className="inner-cta"><div className="shell"><p className="eyebrow">GOOD THINGS START SOMEWHERE.</p><h2>Have a good<br/><em>question?</em></h2><Link className="contact-button" href="/contact">Start a conversation <ArrowUpRight size={18}/></Link></div></section>
+    <footer className="footer"><div className="shell footer-top"><Link className="wordmark" href="/">auranza<span>®</span></Link><p>Independent by nature.<br/>Intentional by design.</p><div className="footer-nav"><Link href="/services">Services</Link><Link href="/about">About</Link><Link href="/contact">Contact</Link></div><Link className="back-top" href="/">BACK HOME ↑</Link></div><div className="shell footer-bottom"><span>© {new Date().getFullYear()} AURANZA STUDIO</span><span>MADE WITH INTENTION.</span><span><Link href="/privacy-policy">PRIVACY</Link> · <Link href="/terms">TERMS</Link></span></div></footer>
+  </main>;
+}
