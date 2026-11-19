@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  verification: {
+    google: "Qb77LfPHRFqWz7HLA9ndnkX39PT6C7zFtqG20WPtDJQ",
+  },
   openGraph: {
     title: "Auranza® — Independent Digital Growth Studio",
     description: "Strategy, creative and digital growth for ambitious brands.",
